@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #044532, #087D7D, #161515);
+}
+
+
+.login-container {
+    margin: auto;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007bff;
+}
